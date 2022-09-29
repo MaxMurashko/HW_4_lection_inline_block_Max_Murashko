@@ -1,42 +1,40 @@
-html, body{
+html, body {
+    height: 100%;
     font-size: 16px;
     background-color: rgb(116, 196, 129);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 100%;
 }
 
-.goods{
+.goods {
     background-color: rgb(96, 182, 96);
     width: 80%;
+    max-width: 90rem;
     margin: 1rem auto;
     padding: 1rem;
-    
-
 }
 
-.img-center{
+.img-center {
     text-align: center;
 }
 
-.article{
+.article {
     text-align: center;
     font-size: 3rem;
     text-decoration: underline;
 }
 
-.good{
+.good {
     position: relative;
     width: 25%;
     padding: 1rem;
-    height: 35rem;
-    overflow: auto;
     display: inline-block;  
     vertical-align:top;
     border: 1px solid #c6c6c6;
     border-radius: .3rem;
     box-sizing: border-box;
     background-color: white;
+    word-break: break-all;
 }
 
 .good .img-center img {
@@ -44,28 +42,29 @@ html, body{
     max-height: 15rem;
 }
 
-.good-description{
+.good-description {
    font-style: italic;
+   word-break: break-all;
 }
 
-.good-name{
-    font-weight: 900;
+.good-name {
+    font-weight: bold;
 }
 
-.good-price{
+.good-price {
     font-style: italic;
     color: red;
 }
 
-.add-to-cart img{
+.add-to-cart img {
     width: 2.5rem;
 }
 
-.sale img{
+.sale img {
     width: 5rem;
 }
 
-.sale{
+.sale {
     position: absolute;
     display: inline-block;
     top: 0.5rem;
@@ -73,7 +72,7 @@ html, body{
     cursor: pointer;
 }
 
-.add-to-cart{
+.add-to-cart {
     position: absolute;
     display: inline-block;
     top: 0.5rem;
@@ -81,7 +80,7 @@ html, body{
     cursor: pointer;
 }    
 
-.go-top{
+.go-top {
     position: fixed;
     margin-top: -1.1rem;
     top: 50%;
